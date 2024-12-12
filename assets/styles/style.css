@@ -9,8 +9,77 @@ body {
 
 /* Начало части Юли */
 
+.menu {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #799351;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.list {
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    line-height: 26px;
+    word-wrap: break-word;
+    text-align: center;
+    list-style-type: none;
+}
+
+.list_item {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu_button {
+    padding-right: 40px;
+    min-width: 80px;
+    height: 42px;
+    font-size: 1rem;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button_contacts {
+    padding: 10px 36px;
+    border: 0;
+    background-color: #282828;
+    text-transform: uppercase;
+}
+
+.button_contacts:hover {
+    background-color: #282828de;
+}
+
+.button_link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .burger_button_contacts {
     display: none;
+}
+
+.list_item {
+    margin-right: 80px;
+}
+
+.list_item:hover {
+    text-decoration: underline;
 }
 
 /* Конец части Юли */
