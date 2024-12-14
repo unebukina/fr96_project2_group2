@@ -17,11 +17,67 @@ body {
 
 /* Начало части Вики */
 
+@font-face{
+    src: url(./Arina.ttf);
+    font-family: 'Arina';
+}
+
+@font-face{
+    src: url(./Inter-Light.otf);
+    font-family: 'Inter';
+}
+
 .cooperate{
     background-color: #799351;
+    text-align: center;
 }
 
 .cooperate>h2{
     color: white;
+    font-family: 'Arina';
+    font-weight: lighter;
+    font-size: 64px;
+    margin: 1em 2em 1em 2em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.reason_container{
+    margin: 1em 4em 1em 4em;
+    gap: 4em;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 2em 3em 2em;
+}
+
+.reason{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.reason>img{
+    width: 7em;
+}
+
+.reason>p{
+    font-family: 'Inter';
+}
+
+.reason>h3{
+    color: white;
+    font-family: 'Inter';
+    font-weight: lighter;
+}
+
+.cooperate>span{
+    color: white;
+    text-align: center;
+    font-family: 'Arina';
+    font-size: 45px;
+    /* margin: 1em; */
+    margin: 1em 2em 1em 2em;
+    padding-top: 1em;
 }
 /* Конец части Вики */
