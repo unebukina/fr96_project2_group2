@@ -84,3 +84,32 @@ body {
 
 /* Конец части Юли */
 
+/* Начало части Светы */
+.main_picture{
+    width: 100%;
+    height: 654px;
+    margin:0px;
+    background-image:url(/assets/images/main_picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .logo_name{
+        width: 1263px;
+        height: 202px;
+        margin-top: 29px;
+        margin-right: 89px;
+        margin-bottom: 424px;
+        margin-left: 89px;
+            }
+        
+    .catalog{
+        width: 274px;
+        height: 52px;
+        margin-top: 330px;
+        margin-right: 583px;
+        margin-bottom: 42px;
+        margin-left: 583px;
+            }
+    }
