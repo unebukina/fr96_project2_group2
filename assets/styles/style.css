@@ -115,7 +115,6 @@ body {
         justify-content: center;
         align-items: center;
         width:374px;
-        height:52px;
         margin-top: 330px;
         margin-right: 583px;
         margin-left: 583px;
@@ -127,5 +126,16 @@ body {
         font-weight: 400;
         line-height: 47px;
         font-style: normal;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
         }
 
+        .button_catalog:hover{
+            background: #e2e2f2
+        }
+        
+        .button_catalog:focus{
+            background: #d7ed0d   
+         }
+         /* Конец части Светы */
