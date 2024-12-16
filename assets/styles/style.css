@@ -113,7 +113,7 @@ body {
         }
         
 /* начало блок 7 Елена М */
-section{
+footer{
 position: relative;
 background-color: #6c8841;
 width: 100%;
@@ -125,15 +125,55 @@ margin-top: 50px;
 }
 .pic_2{
 position: absolute;
-left: 560px;
-top: 100px;
+left: 525px;
+top: 120px;
 }
 .hr-line{
 top: 92%;
 position: absolute;
-transform: translate(6%, -50%);
+transform: translate(7%, -50%);
 background-color: white;
 height: 0.2px;
 width: 90%;
+}
+.form-container_title{
+    font-size: 45px ;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    
+}
+.form-container{
+    display: flex;
+    float: right;
+    width: 500px;
+    margin-top: 20px;
+    margin-right: 0px;
+    
+}
+.form-container_title,.form-container_name, .form-container_email {
+    width: 85%;
+    padding: 10px;
+    margin:  10px;
+    
+}
+.form-container_name, .form-container_email {
+    background-color: #6c8841;
+    border-color: white;
+    border-radius: 2px;
+    border-width: 1px;
+    box-shadow: inset 1px 1px 1px white;
+    margin-right: 30px;
+}
+::placeholder{
+color: white;
+border: 0,5px #ffffff;
+}
+.form-container_button{
+    background-color: rgb(44, 44, 46) ;
+    color: white;
+    padding: 15px;
+    margin-left: 50px;
+    width: 83%;
 }
  /* конец блок 7 Елена М */
