@@ -132,10 +132,10 @@ body {
         }
 
         .button_catalog:hover{
-            background: #e2e2f2
+            border: 2px solid #141414;
         }
         
         .button_catalog:focus{
-            background: #d7ed0d   
-         }
+            background-color:rgba(50, 50, 50, 0.5);
+        }
          /* Конец части Светы */
