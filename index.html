@@ -1,40 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/styles/normalize.css">
-    <link rel="stylesheet" href="assets/styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/styles/normalize.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
     <!-- Начало части Юли -->
     <header>
-        <div class="menu">
-            <!-- Логотип -->
-            <div class="logo">
-                <img class="img_logo" src="assets/icon/logotype.svg" alt="LOgotype of the brand" />
-            </div>
-            <!-- Меню навигации -->
-            <nav class="navbar">
-                <ul class="list">
-                    <li><a class="list_item_1" href="#">Products</a></li>
-                    <li><a class="list_item_2" href="#">About us</a></li>
-                    <li><a class="list_item_3" href="#">Contacts</a></li>
-                    <div class="burger_button_contacts">
-                        <button class="button_contacts">Drop us a line</button>
-                    </div>
-                </ul>
-                <!-- Иконка бургер-меню -->
-                <div class="nav_burger">
-                    <span></span>
-                </div>
-            </nav>
-            <!-- Кнопка -->
-            <div class="menu_button">
-                <button class="button_contacts">Drop us a line</button>
-            </div>
+      <div class="menu">
+        <!-- Логотип -->
+        <div class="logo">
+          <img
+            class="img_logo"
+            src="assets/icon/logotype.svg"
+            alt="LOgotype of the brand"
+          />
         </div>
+        <!-- Меню навигации -->
+        <nav class="navbar">
+          <ul class="list">
+            <li><a class="list_item item1" href="#">Products</a></li>
+            <li>
+              <a class="list_item item2" href="assets/pages/about-us.html"
+                >About us</a
+              >
+            </li>
+            <li><a class="list_item item3" href="#contacts">Contacts</a></li>
+            <div class="burger_button_contacts">
+              <button class="button_contacts">Contact us</button>
+            </div>
+            <div class="menu_button">
+              <button class="button_contacts">
+                <a class="button_link" href="#">Contact us</a>
+              </button>
+            </div>
+          </ul>
+          <!-- Иконка бургер-меню -->
+          <div class="nav_burger">
+            <span></span>
+          </div>
+        </nav>
+      </div>
     </header>
     <!-- Конец части Юли -->
     
@@ -74,10 +83,82 @@
     
     </main>
     <script>
-        document.querySelector('.nav_burger').addEventListener('click', function () {
-            this.classList.toggle('active');
-            document.querySelector('.list').classList.toggle('open');
-        })
+      document
+        .querySelector(".nav_burger")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".list").classList.toggle("open");
+        });
     </script>
-</body>
+    <main>
+      <!-- Начало части Светы   -->
+      <div class="main_picture">
+        <img class="logo_name" src="assets/icon/logotype.svg" alt="Логотип" />
+        <a
+          href="assets/pages/Каталог Coco Ceylon_WEB (1).pdf"
+          class="button_catalog"
+          >SEE CATALOG</a
+        >
+      </div>
+      <!-- Конец части Светы -->
+    </main>
+
+    <!-- начало блок 7 Елена М -->
+    <footer>
+      <img
+        src="assets/images/text_footer.png"
+        alt="надпись"
+        class="pic_1"
+        width="700px"
+        ;
+        height="450px"
+      />
+      <img
+        src="assets/images/fructs.png"
+        alt="фрукты"
+        class="pic_2"
+        width="250px"
+        ;
+        height="180px"
+      />
+
+      <div class="form-container">
+        <form action="#" method="post" target="blank">
+          <fildset>
+            <ul>
+              <legend class="form-container_title">
+                GET IN TOUCH WIHT US!
+              </legend>
+              <div>
+                <label for="name"></label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  id="name"
+                  class="form-container_name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="userEmail"></label>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  id="userEmail"
+                  class="form-container_email"
+                />
+              </div>
+            </ul>
+          </fildset>
+          <div>
+            <button type="submit" class="form-container_button">SEND</button>
+          </div>
+        </form>
+      </div>
+
+      <hr class="hr-line" />
+    </footer>
+    <!-- конец блок 7 Елена М -->
+  </body>
 </html>
