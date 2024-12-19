@@ -90,123 +90,86 @@ body {
 
 /* Конец части Юли */
 
-/* Начало части Светы */
-.main_picture{
-    width: 100%;
-    height: 654px;
-    margin:0px;
-    background-image:url(/assets/images/main_picture.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+/* Начало части Вики */
 
-    .logo_name{
-        width: 1263px;
-        height: 202px;
-        margin-top: 29px;
-        margin-right: 89px;
-        margin-left: 89px;
-        }
-        .catalog{
-        width: 274px;
-        height: 52px;
-            }
-        
-    .button_catalog{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width:374px;
-        margin-top: 330px;
-        margin-right: 583px;
-        margin-left: 583px;
-        background: #FFFFFF;
-        border-style: none;
-        color: #6C8841;
-        font-family: "Arina", sans-serif;
-        font-size: 2rem;
-        font-weight: 400;
-        line-height: 47px;
-        font-style: normal;
-        text-decoration: none;
-        text-align: center;
-        cursor: pointer;
-        }
+@font-face{
+    src: url(./Arina.ttf);
+    font-family: 'Arina';
+}
 
-        .button_catalog:hover{
-            border: 2px solid #141414;
-        }
-        
-        .button_catalog:focus{
-            background-color:rgba(50, 50, 50, 0.5);
-        }
-         /* Конец части Светы */
-        
-         /* начало блок 7 Елена М */
-footer{
-    position: relative;
-    background-color: #6c8841;
+@font-face{
+    src: url(./Manrope-Light.ttf);
+    font-family: 'Manrope';
+}
+
+.cooperate{
+    background-color: #799351;
     width: 100%;
-    height: 550px;
-    }
-    .pic_1{
-    margin-left: 20px;
-    margin-top: 50px;
-    }
-    .pic_2{
-    position: absolute;
-    left: 525px;
-    top: 120px;
-    }
-    .hr-line{
-    top: 92%;
-    position: absolute;
-    transform: translate(7%, -50%);
-    background-color: white;
-    height: 0.2px;
-    width: 90%;
-    }
-    .form-container_title{
-        font-size: 45px ;
-        color: white;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-weight: lighter;
-        
-    }
-    .form-container{
-        display: flex;
-        float: right;
-        width: 500px;
-        margin-top: 20px;
-        margin-right: 0px;
-        
-    }
-    .form-container_title,.form-container_name, .form-container_email {
-        width: 85%;
-        padding: 10px;
-        margin:  10px;
-        
-    }
-    .form-container_name, .form-container_email {
-        background-color: #6c8841;
-        border-color: white;
-        border-radius: 2px;
-        border-width: 1px;
-        box-shadow: inset 1px 1px 1px white;
-        margin-right: 30px;
-    }
-    ::placeholder{
+    text-align: center;
+}
+
+.cooperate>h2{
+    margin: 1em 2em 1.5em 2em;
+    padding-top: 1em;
+
+    font-family: 'Arina';
+    font-weight: lighter;
+    font-size: 64px;
     color: white;
-    border: 0,5px #ffffff;
-    }
-    .form-container_button{
-        background-color: rgb(44, 44, 46) ;
-        color: white;
-        padding: 15px;
-        margin-left: 50px;
-        width: 83%;
-    }
-     /* конец блок 7 Елена М */
- 
+    text-align: center;
+}
+
+.reason_container{
+    margin: 0 5em 1em 5em;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 7em;
+}
+
+.reason{
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 3(2fr,1.5fr,3fr);
+    align-items: center;
+    justify-items: center;
+    transition: 1.5s ease;
+}
+
+.reason>img{
+    width: 12em;
+}
+
+.text_reason{
+    font-family: 'Manrope';
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.reason>h3{
+    font-family: 'Manrope';
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 48px;
+    color: white;
+}
+
+.cooperate>span{
+    margin: 0.5em 2em 1em 2em;
+    padding-top: 0.5em;
+    color: white;
+    text-align: center;
+    font-family: 'Arina';
+    font-size: 64px;
+    display:inline-block;
+}
+
+/* Анимация */
+.reason:hover {
+    cursor: pointer; 
+    transform: scale(1.1);
+    transition: 1.5s ease;
+}
+
+/* Конец части Вики */
