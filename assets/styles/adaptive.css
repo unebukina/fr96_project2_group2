@@ -43,6 +43,15 @@
         background-color: #ffffff;
     }
 
+    .nav_burger::before {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 80%;
+        background-color: #ffffff;
+        transition: all 0.3s ease 0s;
+    }
+
     .nav_burger::after {
         content: '';
         position: absolute;
@@ -52,9 +61,11 @@
         transition: all 0.3s ease 0s;
     }
 
+    .nav_burger::before { top: 0 }
+
     .nav_burger::after { bottom: 0 }
 
-    .nav_burger.active span {
+    .nav_burger.active::before {
         top: 50%;
         transform: translateY(-50%);
         transform: rotate(45deg);
@@ -64,6 +75,10 @@
         top: 50%;
         transform: translateY(-50%);
         transform: rotate(-45deg);
+    }
+
+    .nav_burger.active span {
+        display: none;
     }
 
     .list.open {

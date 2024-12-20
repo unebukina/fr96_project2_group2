@@ -151,5 +151,13 @@
       <hr class="hr-line" />
     </footer>
     <!-- конец блок 7 Елена М -->
+    <script>
+      document
+        .querySelector(".nav_burger")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".list").classList.toggle("open");
+        });
+    </script>
   </body>
 </html>
