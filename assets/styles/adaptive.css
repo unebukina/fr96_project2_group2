@@ -1,0 +1,92 @@
+@media screen and (max-width: 400px){
+    
+    /* Область 1 */
+    
+    .menu {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        padding: 0;
+    }
+
+    .img_logo {
+        padding: 0;
+        width: 90%;
+    }
+
+    .list {
+        display: none;
+    }
+
+    .menu_button {
+        display: none;
+    }
+
+    .nav_burger {
+        margin: 0;
+        display: flex;
+        position: relative;
+        z-index: 50;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30px;
+        height: 18px;
+    }
+
+    .nav_burger span {
+        height: 2px;
+        width: 80%;
+        transform: scale(1);
+        background-color: #ffffff;
+    }
+
+    .nav_burger::after {
+        content: '';
+        position: absolute;
+        height: 2px;
+        width: 80%;
+        background-color: #ffffff;
+        transition: all 0.3s ease 0s;
+    }
+
+    .nav_burger::after { bottom: 0 }
+
+    .nav_burger.active span {
+        top: 50%;
+        transform: translateY(-50%);
+        transform: rotate(45deg);
+    }
+
+    .nav_burger.active::after {
+        top: 50%;
+        transform: translateY(-50%);
+        transform: rotate(-45deg);
+    }
+
+    .list.open {
+        margin: 70px 0;
+        padding: 70px 0;
+        flex-direction: column;
+        grid-row-gap: 3rem;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 50;
+        overflow-y: auto;
+        background-color: #799351;
+        font-size: 2rem;
+        font-weight: 100;
+        text-transform: uppercase;
+    }
+
+    .list-item {
+        margin: 0;
+    }
+}
