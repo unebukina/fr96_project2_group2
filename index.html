@@ -40,6 +40,24 @@
               </button>
             </div>
           </ul>
+          <!-- Всплывающее окно -->
+          <div class="modal_wrapper">
+            <div class="modal_form">
+              <h2 class="title_modal">Drop us a line!</h2>
+              <div class="input_form">
+                <div class="form_input-wrapper">
+                  <input class="input w-input" maxlength="256" name="Name" data-name="Name" placeholder="Your name" type="text" id="Name" required="">
+                </div>
+                <div class="form_input-wrapper">
+                  <input class="input w-input" maxlength="256" name="Email" data-name="Email" placeholder="Email" type="email" id="Email" required="">
+                </div>
+                <div class="form_input-wrapper">
+                  <textarea placeholder="Message" maxlength="5000" id="field" name="field" data-name="Field" class="input w-input"></textarea>
+                </div>
+                <button class="wrapper_button"><a class="button_link" href="#">SEND</a></button>
+              </div>
+            </div>
+          </div>
           <!-- Иконка бургер-меню -->
           <div class="nav_burger">
             <span></span>
@@ -157,6 +175,12 @@
         .addEventListener("click", function () {
           this.classList.toggle("active");
           document.querySelector(".list").classList.toggle("open");
+        });
+      document
+        .querySelector(".button_link")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".modal_wrapper").classList.toggle("open");
         });
     </script>
   </body>
