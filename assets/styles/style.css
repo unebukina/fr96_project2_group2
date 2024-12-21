@@ -383,3 +383,54 @@ border: 0,5px #ffffff;
 }
 
 /* Конец части Вики */
+
+/* Начало части Насти */
+.frame_84 {
+    display: flex;
+    width: 1360px;
+    height: 544px;
+    flex-shrink: 0;
+    margin-top: 78px;
+    margin-right: 40px;
+    margin-bottom: 190px;
+    margin-left: 40px;
+}
+.frame_83 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 204px;
+}
+.text_box_01 {
+    width: 561px;
+    height: 76px;
+    align-self: stretch;
+    color: #000;
+    font-family: Arina;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    order: 1;
+}
+.text_box_02 {
+    width: 561px;
+    height: 248px;
+    align-self: stretch;
+    color: #282828;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 31.2px */
+    order: 2;
+}
+.rectangle_92 {
+    align-self: flex-end;
+    margin-left: 124px;
+    width: 675px;
+    height: 544px;
+    flex-shrink: 0;
+    order: 3;
+}
+/* Конец части Насти */
