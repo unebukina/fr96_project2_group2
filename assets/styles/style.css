@@ -19,6 +19,7 @@ header {
     width: 100%;
 }
 .menu {
+    padding: 5px 40px;
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -29,13 +30,8 @@ header {
     background-color: #799351;
 }
 
-.logo {
-    padding-left: 40px;
-    width: 43%;
-}
-
 .img_logo {
-    width: 25%;
+    width: 15%;
 }
 
 .list {
@@ -60,6 +56,7 @@ header {
 
 .menu_button {
     padding-right: 40px;
+    margin-right: 40px;
     min-width: 80px;
     height: 42px;
     font-size: 1rem;
@@ -178,7 +175,6 @@ header {
     line-height: 1rem;
     transition: padding .2s, border-width .2s, border-radius .2s, color .2s, background-color .2s, border-color .2s;
 }
-
 
 /* Конец части Юли */
 
