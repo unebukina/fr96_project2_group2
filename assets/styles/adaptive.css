@@ -104,4 +104,11 @@
     .list-item {
         margin: 0;
     }
+
+    /* Область 6 */
+
+    .reason_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
