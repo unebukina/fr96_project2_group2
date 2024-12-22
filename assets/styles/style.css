@@ -261,9 +261,6 @@ width: 90%;
 .form-container_title{
     font-size: 45px ;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: lighter;
-    
 }
 .form-container{
     display: flex;
@@ -271,20 +268,18 @@ width: 90%;
     width: 500px;
     margin-top: 20px;
     margin-right: 0px;
-    
 }
 .form-container_title,.form-container_name, .form-container_email {
     width: 85%;
     padding: 10px;
     margin:  10px;
-    
 }
 .form-container_name, .form-container_email {
     background-color: #6c8841;
     border-color: white;
     border-radius: 2px;
     border-width: 1px;
-    box-shadow: inset 1px 1px 1px white;
+    box-shadow: inset 1px 1px 1px  white;
     margin-right: 30px;
 }
 ::placeholder{
@@ -295,11 +290,53 @@ border: 0,5px #ffffff;
     background-color: rgb(44, 44, 46) ;
     color: white;
     padding: 15px;
-    margin-left: 50px;
+    margin-left: 48px;
     width: 83%;
 }
   
  /* конец блок 7 Елена М */
+<<<<<<< HEAD
+@media screen and (max-width: 500px) {
+    footer{
+        height: 700px;
+    }
+    .pic_1{
+        width: 300px;
+        height: 150px;
+    }
+    .pic_2{
+        width: 120px;
+        height: 80px;
+        left: 240px;
+        top: 55px;
+    }
+    .form-container{
+        width: 400px;
+        float: left;
+        margin-top: 5px;
+    }
+    .form-container_title{
+        font-size: 30px;
+    }
+    .form-container_name, .form-container_email{
+        margin-right: 0px;
+    }
+    .form-container_title,.form-container_name, .form-container_email {
+        width: 75%;
+        padding: 8px;
+        margin:  6px;
+    }
+    .form-container_button{
+        width: 72%;
+        margin-left: 46px;
+    }
+    .hr-line{
+        width: 65%;
+    }
+}       
+        
+        
+=======
   
 /* Начало части Вики */
 
@@ -435,3 +472,4 @@ border: 0,5px #ffffff;
     order: 3;
 }
 /* Конец части Насти */
+>>>>>>> main
