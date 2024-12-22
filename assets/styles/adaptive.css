@@ -114,7 +114,7 @@
 }
 @media screen and (max-width: 500px) {
     footer{
-        height: 700px;
+        height: 600px;
     }
     .pic_1{
         width: 300px;
@@ -147,6 +147,6 @@
         margin-left: 46px;
     }
     .hr-line{
-        width: 65%;
+        width: 90%;
     }
 }       
