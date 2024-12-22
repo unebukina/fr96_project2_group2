@@ -293,8 +293,8 @@ border: 0,5px #ffffff;
     margin-left: 48px;
     width: 83%;
 }
-  
  /* конец блок 7 Елена М */
+/* медиа запросы блок 7 Елена М */
 @media screen and (max-width: 500px) {
     footer{
         height: 700px;
@@ -333,9 +333,9 @@ border: 0,5px #ffffff;
         width: 65%;
     }
 }       
+/* конец медиа запросы блок 7         */
         
-        
-  
+
 /* Начало части Вики */
 
 @font-face{
