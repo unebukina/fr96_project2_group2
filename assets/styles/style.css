@@ -232,9 +232,9 @@ header {
         }
 
          /* Конец части Светы */
-  
+
   /* начало блок 7 Елена М */
-  
+
 footer{
 position: relative;
 background-color: #6c8841;
@@ -293,51 +293,7 @@ border: 0,5px #ffffff;
     margin-left: 48px;
     width: 83%;
 }
-  
- /* конец блок 7 Елена М */
-<<<<<<< HEAD
-@media screen and (max-width: 500px) {
-    footer{
-        height: 700px;
-    }
-    .pic_1{
-        width: 300px;
-        height: 150px;
-    }
-    .pic_2{
-        width: 120px;
-        height: 80px;
-        left: 240px;
-        top: 55px;
-    }
-    .form-container{
-        width: 400px;
-        float: left;
-        margin-top: 5px;
-    }
-    .form-container_title{
-        font-size: 30px;
-    }
-    .form-container_name, .form-container_email{
-        margin-right: 0px;
-    }
-    .form-container_title,.form-container_name, .form-container_email {
-        width: 75%;
-        padding: 8px;
-        margin:  6px;
-    }
-    .form-container_button{
-        width: 72%;
-        margin-left: 46px;
-    }
-    .hr-line{
-        width: 65%;
-    }
-}       
-        
-        
-=======
-  
+/* конец блока Елены М */
 /* Начало части Вики */
 
 @font-face{
@@ -472,4 +428,3 @@ border: 0,5px #ffffff;
     order: 3;
 }
 /* Конец части Насти */
->>>>>>> main

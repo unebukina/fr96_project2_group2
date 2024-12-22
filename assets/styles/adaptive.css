@@ -111,4 +111,46 @@
         display: flex;
         flex-wrap: wrap;
     }
+    
 }
+/* конец блок 7 Елена М */
+@media screen and (max-width: 400px) {
+    footer{
+        height: 550px;
+    }
+    .pic_1{
+        width: 260px;
+        height: 150px;
+    }
+    .pic_2{
+        width: 100px;
+        height: 80px;
+        left: 180px;
+        top: 55px;
+    }
+    .form-container{
+        width: 400px;
+        float: left;
+        margin-top: 5px;
+    }
+    .form-container_title{
+        font-size: 30px;
+        
+    }
+    .form-container_name, .form-container_email{
+        left: 150px;
+        margin-right: 0px;
+    }
+    .form-container_title,.form-container_name, .form-container_email {
+        width: 75%;
+        padding: 8px;
+        margin:  6px;
+    }
+    .form-container_button{
+        width: 72%;
+        margin-left: 46px;
+    }
+    .hr-line{
+        width: 90%;
+    }
+}    
