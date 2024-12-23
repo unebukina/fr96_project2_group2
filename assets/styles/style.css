@@ -216,7 +216,7 @@ header {
         font-family: "Arina", sans-serif;
         font-size: 2rem;
         font-weight: 400;
-        line-height: 47px;
+        line-height: 60px;
         font-style: normal;
         text-decoration: none;
         text-align: center;
@@ -232,26 +232,31 @@ header {
         }
 
          /* Конец части Светы */
-  
+    
 /* блок Нади */
+
 body {
-    font-family: 'Arial', sans-serif;
     text-align: center;
     background-color: #f9f9f9;
     margin: 0;
     padding: 0;
 }
 
-h2 {
-    font-size: 2.5rem;
-    color: #4a4a4a;
-    margin: 2rem 0;
+.pop-products {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Arina, sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 76px;
 }
 
 .interactive-gallery {
     max-width: 1400px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .gallery-container {
@@ -304,10 +309,11 @@ h2 {
 .gallery-item:hover p {
     opacity: 1;
 }
+
 /* конец блока Нади */
 
   /* начало блок 7 Елена М */
-  
+
 footer{
 position: relative;
 background-color: #6c8841;
