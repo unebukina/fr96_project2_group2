@@ -111,6 +111,13 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    /* Область 2 */
+
+    .logo_name{
+        width:1263px;
+        max-height:202px;
+    }
 }
 @media screen and (max-width: 500px) {
     footer{

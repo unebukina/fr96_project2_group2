@@ -200,7 +200,6 @@ header {
         margin-left: 89px;
         }
         
-        
     .button_catalog{
         display: flex;
         justify-content: center;
@@ -218,7 +217,7 @@ header {
         cursor: pointer;
         padding:0 25px;
         }
-
+    
         .main_picture1{
             display: flex;
             justify-content: center;
