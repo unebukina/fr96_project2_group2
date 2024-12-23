@@ -486,6 +486,7 @@ border: 0,5px #ffffff;
     line-height: normal;
     text-transform: uppercase;
     order: 1;
+    text-align: left;
 }
 .text_box_02 {
     width: 561px;
@@ -498,6 +499,7 @@ border: 0,5px #ffffff;
     font-weight: 400;
     line-height: 130%; /* 31.2px */
     order: 2;
+    text-align: left;
 }
 .rectangle_92 {
     align-self: flex-end;
@@ -511,6 +513,7 @@ border: 0,5px #ffffff;
 /* начало части лена изумруд */
 .container-5{
     display: flex;
+    padding-left: 40px;
     }
 
 .woman{
@@ -524,7 +527,7 @@ top: 0px;
 .quality-food{
     color: #000000;
     text-align: left;
-    font-family: "Arina-Regular", sans-serif;
+    font-family: "Arina", sans-serif;
     font-size: 3rem;
     font-weight: 400;
     text-transform: uppercase;
@@ -534,7 +537,7 @@ top: 0px;
 .welcome{
 color: #282828;
 text-align: left;
-font-family: "Inter-Regular", sans-serif;
+font-family: "Inter";
 font-size: 1.2rem;
 line-height: 130%;
 font-weight: 400;
