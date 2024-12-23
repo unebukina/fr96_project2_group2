@@ -3,22 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Coco Ceylon</title>
     <link rel="stylesheet" href="assets/styles/normalize.css" />
     <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/adaptive.css" />
+    <link rel="shortcut icon" href="assets/images/coco-favicon.png" />
   </head>
   <body>
     <!-- Начало части Юли -->
     <header>
       <div class="menu">
         <!-- Логотип -->
-        <div class="logo">
-          <img
-            class="img_logo"
-            src="assets/icon/logotype.svg"
-            alt="LOgotype of the brand"
-          />
-        </div>
+        <img
+          class="img_logo"
+          src="assets/icon/coco_logo.svg"
+          alt="Logotype of the brand"
+        />
         <!-- Меню навигации -->
         <nav class="navbar">
           <ul class="list">
@@ -38,6 +38,51 @@
               </button>
             </div>
           </ul>
+          <!-- Всплывающее окно -->
+          <div class="modal_wrapper">
+            <div class="modal_form">
+              <h2 class="title_modal">Drop us a line!</h2>
+              <div class="input_form">
+                <div class="form_input-wrapper">
+                  <input
+                    class="input w-input"
+                    maxlength="256"
+                    name="Name"
+                    data-name="Name"
+                    placeholder="Your name"
+                    type="text"
+                    id="name"
+                    required=""
+                  />
+                </div>
+                <div class="form_input-wrapper">
+                  <input
+                    class="input w-input"
+                    maxlength="256"
+                    name="Email"
+                    data-name="Email"
+                    placeholder="Email"
+                    type="email"
+                    id="Email"
+                    required=""
+                  />
+                </div>
+                <div class="form_input-wrapper">
+                  <textarea
+                    placeholder="Message"
+                    maxlength="5000"
+                    id="field"
+                    name="field"
+                    data-name="Field"
+                    class="input w-input"
+                  ></textarea>
+                </div>
+                <button class="wrapper_button">
+                  <a class="button_link" href="#">SEND</a>
+                </button>
+              </div>
+            </div>
+          </div>
           <!-- Иконка бургер-меню -->
           <div class="nav_burger">
             <span></span>
@@ -47,14 +92,6 @@
     </header>
     <!-- Конец части Юли -->
 
-    <script>
-      document
-        .querySelector(".nav_burger")
-        .addEventListener("click", function () {
-          this.classList.toggle("active");
-          document.querySelector(".list").classList.toggle("open");
-        });
-    </script>
     <main>
       <!-- Начало части Светы   -->
       <div class="main_picture">
@@ -70,6 +107,94 @@
         </div>
       </div>
       <!-- Конец части Светы -->
+      <!-- Начало части Насти -->
+      <div class="frame_84">
+        <div class="frame_83">
+          <div class="text_box_01">Quality Food</div>
+          <div class="text_box_02">
+            Welcome to freshbazaar.co a leading player in the import and export
+            industry, specializing in the trade of high-quality food products.
+            Established in 2022, our company is strategically located in Dubai,
+            a global hub for trade and commerce, allowing us to connect with
+            markets worldwide and cater to the diverse needs of our valued
+            clients.
+          </div>
+        </div>
+        <div
+          class="rectangle_92"
+          style="background-image: url(assets/images/coco_image.jpg)"
+        ></div>
+      </div>
+      <!-- Конец части Насти -->
+
+      <!-- Начало части Вики -->
+      <div class="cooperate">
+        <h2>Why Do Business with Us</h2>
+        <div class="reason_container">
+          <aside class="reason reason_1">
+            <img
+              src="./assets/icon/fruit.png"
+              alt="Картинка причины Непревзойденное качество и свежесть"
+            />
+            <h3>
+              Unmatched<br />
+              Quality and Freshness
+            </h3>
+            <div class="overlay_1">
+              <p class="text_reason">
+                At Coco Ceylon, we prioritize delivering only the finest,
+                freshest agricultural products. From exotic fruits to premium
+                Ceylon spices, our products are sourced directly from Sri Lanka
+                and Southeast Asia, ensuring authentic flavors and top-tier
+                quality for our partners worldwide.
+              </p>
+            </div>
+          </aside>
+          <aside class="reason" class="reason_2">
+            <img
+              src="./assets/icon/vegetables.png"
+              alt=" Картинка причины устойчивое развитие и здоровье"
+            />
+            <h3>
+              Sustainability and Health<br />
+              at the Core
+            </h3>
+            <div class="overlay_2">
+              <p class="text_reason">
+                We are deeply committed to sustainability and promoting
+                well-being. By combining traditional farming techniques with
+                modern quality standards, we provide organic and natural
+                products that not only taste extraordinary but also support a
+                healthier lifestyle.
+              </p>
+            </div>
+          </aside>
+          <aside class="reason" class="reason_3">
+            <img
+              src="./assets/icon/planet.png"
+              alt="Картинка причины глобальный шлюз"
+            />
+            <h3>
+              A Global<br />
+              Gateway
+            </h3>
+            <div class="overlay_3">
+              <p class="text_reason">
+                Strategically headquartered in Dubai, a global trade hub, Coco
+                Ceylon connects diverse international markets. Our reliable
+                supply chain and personalized service ensure that your business
+                benefits from seamless access to premium, sustainably sourced
+                agricultural products.
+              </p>
+            </div>
+          </aside>
+        </div>
+        <span
+          >Partner with us to bring the essence of Sri Lanka&#39;s agricultural
+          heritage to your business!</span
+        >
+      </div>
+      <!-- Конец части Вики -->
     </main>
     <!-- начало блок 7 Елена М -->
     <footer>
@@ -118,15 +243,30 @@
                 />
               </div>
             </ul>
+            <div>
+              <button type="submit" class="form-container_button">SEND</button>
+            </div>
           </fildset>
-          <div>
-            <button type="submit" class="form-container_button">SEND</button>
-          </div>
         </form>
       </div>
-
       <hr class="hr-line" />
     </footer>
-    <!-- конец блок 7 Елена М -->
+    <!-- конец блок 7 Елена М  -->
+
+    <script>
+      document
+        .querySelector(".nav_burger")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".list").classList.toggle("open");
+        });
+      document
+        .querySelector(".button_link")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".modal_wrapper").classList.toggle("open");
+        });
+    </script>
   </body>
 </html>
+>>>>>>> main

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="style/normalize.css" />
+    <link rel="stylesheet" href="style/adaptive.css" />
+    <link rel="stylesheet" href="style/style-about-us.css" />
+    <link rel="shortcut icon" href="assets-about-us/img/coco-favicon.png" />
+  </head>
+  <body>
+    <!-- Начало части Юли -->
+    <header>
+      <div class="menu">
+        <!-- Логотип -->
+        <img
+          class="img_logo"
+          src="assets-about-us/icon/coco_logo.svg"
+          alt="Logotype of the brand"
+        />
+        <!-- Меню навигации -->
+        <nav class="navbar">
+          <ul class="list">
+            <li><a class="list_item item1" href="#">Products</a></li>
+            <li>
+              <a class="list_item item2" href="about-us.html">About us</a>
+            </li>
+            <li><a class="list_item item3" href="#contacts">Contacts</a></li>
+            <div class="burger_button_contacts">
+              <button class="button_contacts">Contact us</button>
+            </div>
+            <div class="menu_button">
+              <button class="button_contacts">
+                <a class="button_link" href="#">Contact us</a>
+              </button>
+            </div>
+          </ul>
+          <!-- Всплывающее окно -->
+          <div class="modal_wrapper">
+            <div class="modal_form">
+              <h2 class="title_modal">Drop us a line!</h2>
+              <div class="input_form">
+                <div class="form_input-wrapper">
+                  <input
+                    class="input w-input"
+                    maxlength="256"
+                    name="Name"
+                    data-name="Name"
+                    placeholder="Your name"
+                    type="text"
+                    id="name"
+                    required=""
+                  />
+                </div>
+                <div class="form_input-wrapper">
+                  <input
+                    class="input w-input"
+                    maxlength="256"
+                    name="Email"
+                    data-name="Email"
+                    placeholder="Email"
+                    type="email"
+                    id="Email"
+                    required=""
+                  />
+                </div>
+                <div class="form_input-wrapper">
+                  <textarea
+                    placeholder="Message"
+                    maxlength="5000"
+                    id="field"
+                    name="field"
+                    data-name="Field"
+                    class="input w-input"
+                  ></textarea>
+                </div>
+                <button class="wrapper_button">
+                  <a class="button_link" href="#">SEND</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Иконка бургер-меню -->
+          <div class="nav_burger">
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Конец части Юли -->
+
+    <main>
+      <section>
+        <h1 class="h1-about-us">ABOUT US</h1>
+        <h2 class="h2-about-us">
+          Coco Ceylon: Your Partner in Fruit <br />Exports from Sri Lanka
+        </h2>
+      </section>
+      <article class="article-about-us">
+        <img
+          class="pic-about-us"
+          src="assets-about-us/img/fruit.jpg"
+          alt="photo of fruit in supermarket"
+        />
+        <section class="p1-about-us">
+          <p>
+            Coco Ceylon is a fresh, dynamic brand that brings the best of Sri
+            Lanka’s rich agricultural heritage directly to you. Specializing in
+            premium fruits, vegetables, aromatic spices, and organic oils, Coco
+            Ceylon ensures that each product reflects the natural essence and
+            authenticity of Sri Lankan and Southeast Asian produce. With an
+            unwavering commitment to quality, Coco Ceylon combines traditional
+            farming practices with modern standards, delivering pure and
+            flavourful products that captivate the senses. ‍
+          </p>
+        </section>
+        <section class="p2-about-us">
+          <p>
+            Our exclusive King Coconut and handpicked spices are just a taste of
+            what we offer, bringing the heart of Sri Lanka’s tropical flavours
+            to the world. Based in Dubai, Coco Ceylon Trading LLC is a trusted
+            gateway for high-quality, sustainably sourced produce, making every
+            culinary experience exceptional.
+          </p>
+        </section>
+      </article>
+    </main>
+    <!-- начало блок 7 Елена М -->
+    <footer>
+      <img
+        src="assets-about-us/img/text_footer.png"
+        alt="надпись"
+        class="pic_1"
+        width="700px"
+        ;
+        height="450px"
+      />
+      <img
+        src="assets-about-us/img/fructs.png"
+        alt="фрукты"
+        class="pic_2"
+        width="250px"
+        ;
+        height="180px"
+      />
+
+      <div class="form-container">
+        <form action="#" method="post" target="blank">
+          <fildset>
+            <ul>
+              <legend class="form-container_title">
+                GET IN TOUCH WIHT US!
+              </legend>
+              <div>
+                <label for="name"></label>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Your name"
+                  id="name"
+                  class="form-container_name"
+                  required
+                />
+              </div>
+              <div>
+                <label for="userEmail"></label>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  id="userEmail"
+                  class="form-container_email"
+                />
+              </div>
+            </ul>
+            <div>
+              <button type="submit" class="form-container_button">SEND</button>
+            </div>
+          </fildset>
+        </form>
+      </div>
+      <hr class="hr-line" />
+    </footer>
+  </body>
+</html>
