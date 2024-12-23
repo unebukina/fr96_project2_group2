@@ -106,7 +106,7 @@ body {
 
     .logo_name{
         width: 1263px;
-        height: 202px;
+        max-height: 202px;
             }
         
     .button_catalog{
