@@ -2,6 +2,12 @@ html {
     font-size: 20px;
 }
 
+@font-face {
+    font-family: "Arina";
+    src: url(//assets/fonts/arina.ttf);
+    font-weight: 400;
+}
+
 body {
     margin: 0;
     min-width: 300px;
@@ -9,12 +15,224 @@ body {
 
 /* Начало части Юли */
 
+header {
+    width: 100%;
+}
+.menu {
+    padding: 5px 40px;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #799351;
+}
+
+.img_logo {
+    width: 15%;
+}
+
+.list {
+    padding: 0;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    line-height: 26px;
+    word-wrap: break-word;
+    text-align: center;
+    list-style-type: none;
+}
+
+.list_item {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menu_button {
+    padding-right: 40px;
+    margin-right: 40px;
+    min-width: 80px;
+    height: 42px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button_contacts {
+    padding: 10px 36px;
+    border: 0;
+    background-color: #282828;
+    text-transform: uppercase;
+}
+
+.button_contacts:hover {
+    background-color: #282828de;
+}
+
+.button_link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .burger_button_contacts {
     display: none;
 }
 
+.list_item {
+    margin-right: 80px;
+}
+
+.list_item:hover {
+    text-decoration: underline;
+}
+
+.open {
+    display: flex !important;
+}
+
+.nav_burger {
+    display: none;
+}
+
+.modal_wrapper {
+    display: none;
+}
+
+.modal_wrapper.open {
+    margin: 100px 0 0 450px;
+    padding: 30px 110px 114px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_form {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.title_modal {
+    margin: 0;
+    color: #799351;
+    text-transform: uppercase;
+    font-family: Inter, sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 120%;
+}
+
+.input_form {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    flex-flow: column;
+    display: flex;
+}
+
+.wrapper_button {
+    text-align: center;
+    min-width: 160px;
+    height: 58px;
+    padding: 10px;
+    font-family: "Arina", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 44px;
+    transition: background-color .2s, color .2s;
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.wrapper_button:hover {
+    background-color: #282828e4;
+}
+
+.input {
+    border: 1px solid #799351;
+    color: black;
+    border-radius: 0;
+    width: 95%;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 1rem;
+    line-height: 1rem;
+    transition: padding .2s, border-width .2s, border-radius .2s, color .2s, background-color .2s, border-color .2s;
+}
+
 /* Конец части Юли */
 
+/* Начало части Светы */
+.main_picture{
+    width: 100%;
+    height: 654px;
+    margin:0px;
+    background-image:url(/assets/images/main_picture.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .logo_name{
+        width: 100%;
+        height: 202px;
+        margin-top: 29px;
+        margin-right: 89px;
+        margin-left: 89px;
+        }
+        .catalog{
+        width: 274px;
+        height: 52px;
+            }
+        
+    .button_catalog{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width:374px;
+        margin-top: 330px;
+        margin-right: 583px;
+        margin-left: 583px;
+        background: #FFFFFF;
+        border-style: none;
+        color: #6C8841;
+        font-family: "Arina", sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 47px;
+        font-style: normal;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        }
+
+        .button_catalog:hover{
+            border: 2px solid #141414;
+        }
+        
+        .button_catalog:focus{
+            background-color:rgba(50, 50, 50, 0.5);
+        }
+
+         /* Конец части Светы */
+  
 /* блок Нади */
 body {
     font-family: 'Arial', sans-serif;
@@ -88,3 +306,199 @@ h2 {
 }
 /* конец блока Нади */
 
+  /* начало блок 7 Елена М */
+  
+footer{
+position: relative;
+background-color: #6c8841;
+width: 100%;
+height: 550px;
+}
+.pic_1{
+margin-left: 20px;
+margin-top: 50px;
+}
+.pic_2{
+position: absolute;
+left: 525px;
+top: 120px;
+}
+.hr-line{
+top: 92%;
+position: absolute;
+transform: translate(7%, -50%);
+background-color: white;
+height: 0.2px;
+width: 90%;
+}
+.form-container_title{
+    font-size: 45px ;
+    color: white;
+}
+.form-container{
+    display: flex;
+    float: right;
+    width: 500px;
+    margin-top: 20px;
+    margin-right: 0px;
+}
+.form-container_title,.form-container_name, .form-container_email {
+    width: 85%;
+    padding: 10px;
+    margin:  10px;
+}
+.form-container_name, .form-container_email {
+    background-color: #6c8841;
+    border-color: white;
+    border-radius: 2px;
+    border-width: 1px;
+    box-shadow: inset 1px 1px 1px  white;
+    margin-right: 30px;
+}
+::placeholder{
+color: white;
+border: 0,5px #ffffff;
+}
+.form-container_button{
+    background-color: rgb(44, 44, 46) ;
+    color: white;
+    padding: 15px;
+    margin-left: 48px;
+    width: 83%;
+}
+ /* конец блок 7 Елена М */
+
+/* Начало части Вики */
+
+@font-face{
+    src: url(./Arina.ttf);
+    font-family: 'Arina';
+}
+
+@font-face{
+    src: url(./Manrope-Light.ttf);
+    font-family: 'Manrope';
+}
+
+.cooperate{
+    background-color: #799351;
+    width: 100%;
+    text-align: center;
+}
+
+.cooperate>h2{
+    margin: 1em 2em 1.5em 2em;
+    padding-top: 1em;
+
+    font-family: 'Arina';
+    font-weight: lighter;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+}
+
+.reason_container{
+    margin: 0 5em 1em 5em;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 7em;
+}
+
+.reason{
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 3(2fr,1.5fr,3fr);
+    align-items: center;
+    justify-items: center;
+    transition: 1.5s ease;
+}
+
+.reason>img{
+    width: 12em;
+}
+
+.text_reason{
+    font-family: 'Manrope';
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+.reason>h3{
+    font-family: 'Manrope';
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 48px;
+    color: white;
+}
+
+.cooperate>span{
+    margin: 0.5em 2em 1em 2em;
+    padding-top: 0.5em;
+    color: white;
+    text-align: center;
+    font-family: 'Arina';
+    font-size: 64px;
+    display:inline-block;
+}
+
+/* Анимация */
+.reason:hover {
+    cursor: pointer; 
+    transform: scale(1.1);
+    transition: 1.5s ease;
+}
+
+/* Конец части Вики */
+
+/* Начало части Насти */
+.frame_84 {
+    display: flex;
+    width: 1360px;
+    height: 544px;
+    flex-shrink: 0;
+    margin-top: 78px;
+    margin-right: 40px;
+    margin-bottom: 190px;
+    margin-left: 40px;
+}
+.frame_83 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 204px;
+}
+.text_box_01 {
+    width: 561px;
+    height: 76px;
+    align-self: stretch;
+    color: #000;
+    font-family: Arina;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    order: 1;
+}
+.text_box_02 {
+    width: 561px;
+    height: 248px;
+    align-self: stretch;
+    color: #282828;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 31.2px */
+    order: 2;
+}
+.rectangle_92 {
+    align-self: flex-end;
+    margin-left: 124px;
+    width: 675px;
+    height: 544px;
+    flex-shrink: 0;
+    order: 3;
+}
+/* Конец части Насти */
