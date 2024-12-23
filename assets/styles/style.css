@@ -193,11 +193,8 @@ header {
     }
 
     .logo_name{
-        width: 1263px;
+        width: 100%;
         height: 202px;
-        margin-top: 29px;
-        margin-right: 89px;
-        margin-left: 89px;
         }
         
     .button_catalog{
@@ -215,14 +212,13 @@ header {
         text-decoration: none;
         text-align: center;
         cursor: pointer;
-        padding:0 25px;
+        padding:5px 20px;
         }
     
         .main_picture1{
             display: flex;
             justify-content: center;
             padding-top:29px;
-            padding-bottom:330px;
         }
 
         .main_picture2{
