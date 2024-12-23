@@ -508,3 +508,46 @@ border: 0,5px #ffffff;
     order: 3;
 }
 /* Конец части Насти */
+/* начало части лена изумруд */
+.container-5{
+    display: flex;
+    }
+
+.woman{
+width: 100%;
+height: 544px;
+position: relative;
+left: 0px;
+top: 0px;
+
+}
+.quality-food{
+    color: #000000;
+    text-align: left;
+    font-family: "Arina-Regular", sans-serif;
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    align-self: stretch;
+
+}
+.welcome{
+color: #282828;
+text-align: left;
+font-family: "Inter-Regular", sans-serif;
+font-size: 1.2rem;
+line-height: 130%;
+font-weight: 400;
+position: relative;
+width: 576px;
+height: 264px;
+}
+.text{
+align-content: flex-start;
+padding: 0 114px 0 28px;
+gap: 16px;
+width: 100%;
+position: relative;
+
+}
+/* конец блок 5 Елена изумруд */
