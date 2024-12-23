@@ -475,7 +475,7 @@ border: 0,5px #ffffff;
     margin-bottom: 204px;
 }
 .text_box_01 {
-    width: 561px;
+    width: 100%;
     height: 76px;
     align-self: stretch;
     color: #000;
@@ -489,7 +489,7 @@ border: 0,5px #ffffff;
     text-align: left;
 }
 .text_box_02 {
-    width: 561px;
+    width: 100%;
     height: 248px;
     align-self: stretch;
     color: #282828;
@@ -508,6 +508,9 @@ border: 0,5px #ffffff;
     height: 544px;
     flex-shrink: 0;
     order: 3;
+}
+.coco {
+    border-radius: 20px;
 }
 /* Конец части Насти */
 /* начало части лена изумруд */

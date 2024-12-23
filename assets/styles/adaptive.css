@@ -149,7 +149,45 @@
     .hr-line{
         width: 90%;
     }
-}  
+    /* Область 4 */
+    .frame_84 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .frame_83 {
+        margin-bottom: 15px;
+    }
+    .text_box_01 {
+        width: 90%;
+        font-size: 3rem;
+        font-weight: 100;
+        padding-left: 15px;
+    }
+    .text_box_02 {
+        font-size: 1.1rem;
+        width: 90%;
+        height: 248px;
+        padding-left: 15px;
+        margin-bottom: 10px;
+    }
+    .rectangle_92 {
+        width: 360px;
+        height: 340px;
+        margin-left: 10px;
+        margin-right: 25px;
+    }
+    .coco {
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+    }
+}         
 @media screen and (max-width: 500px) {
     .container-5{
         display: flex;
