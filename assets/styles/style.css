@@ -8,6 +8,12 @@ html {
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "Inter";
+    src: url(/assets/pages/assets-about-us/fonts/Inter-ExtraLight.ttf);
+    font-weight: 400;
+}
+
 body {
     margin: 0;
     min-width: 300px;
@@ -42,7 +48,7 @@ header {
     align-items: center;
     font-size: 1rem;
     font-family: "Inter", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px;
     word-wrap: break-word;
     text-align: center;
@@ -399,10 +405,9 @@ border: 0,5px #ffffff;
 .cooperate>h2{
     margin: 1em 2em 1.5em 2em;
     padding-top: 1em;
-
-    font-family: 'Arina';
-    font-weight: lighter;
-    font-size: 64px;
+    font-family: 'Arina', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
     color: white;
     text-align: center;
 }
@@ -449,7 +454,7 @@ border: 0,5px #ffffff;
     color: white;
     text-align: center;
     font-family: 'Arina';
-    font-size: 64px;
+    font-size: 3rem;
     display:inline-block;
 }
 
@@ -529,7 +534,7 @@ height: 544px;
 position: relative;
 left: 0px;
 top: 0px;
-
+border-radius: 20px;
 }
 .quality-food{
     color: #000000;

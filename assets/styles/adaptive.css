@@ -1,11 +1,12 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
     
     /* Область 1 */
     
     .menu {
-        padding: 20px 40px;
+        padding: 20px 0;
+        margin: 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .logo {
@@ -14,7 +15,7 @@
 
     .img_logo {
         padding: 0;
-        width: 90%;
+        width: 40%;
     }
 
     .list {
@@ -96,7 +97,7 @@
         z-index: 50;
         overflow-y: auto;
         background-color: #799351;
-        font-size: 2rem;
+        font-size: 1.4rem;
         font-weight: 100;
         text-transform: uppercase;
     }
@@ -108,7 +109,7 @@
     /* Область 2 */
 
     .logo_name{
-        width:100%;
+        width: 80%;
         max-height:202px;
     }
     
@@ -130,7 +131,7 @@
     .pic_2{
         width: 120px;
         height: 80px;
-        left: 240px;
+        left: 250px;
         top: 55px;
     }
     .form-container{
@@ -159,73 +160,95 @@
     /* Область 4 */
     .frame_84 {
         display: flex;
-        flex-direction: column;
-        width: 100%;
+        flex-direction: column-reverse;
+        width: 90%;
         height: 100%;
-        margin-left: 10px;
-        margin-top: 10px;
-        margin-right: 10px;
-        margin-bottom: 10px;
+        margin: 10px;
     }
     .frame_83 {
         margin-bottom: 15px;
     }
     .text_box_01 {
         width: 90%;
-        font-size: 3rem;
+        height: 60px;
+        font-size: 1.5rem;
         font-weight: 100;
-        padding-left: 15px;
+        margin-left: 20px;
+        text-align: center;
     }
     .text_box_02 {
-        font-size: 1.1rem;
-        width: 90%;
+        font-size: 0.9rem;
+        width: 85%;
         height: 248px;
-        padding-left: 15px;
+        padding: 0;
+        margin-left: 20px;
         margin-bottom: 10px;
+        text-align: center;
     }
     .rectangle_92 {
         width: 360px;
         height: 340px;
         margin-left: 10px;
-        margin-right: 25px;
     }
     .coco {
-        width: 100%;
+        width: 300px;
         height: auto;
         background-repeat: no-repeat;
     }
-}         
+}
 @media screen and (max-width: 500px) {
     .container-5{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0;
+        width: 100%;
     }
     .woman{
-        width: 350px;
-        height: 400px;
-        padding: 55px 0 0;
+        width: 300px;
+        height: 350px;
+        padding: 0;
     }
     
     .text{
         display: flex;
-        width: 600px;
-        float: left;
+        align-items: center;
+        width: 100%;
         margin-top: 5px;
         flex-direction: column; 
         padding: 10px;
-        
     }
+
     .quality-food{
-        font-size: 30px;
+        font-size: 1.5rem;
         padding: 20px;
         text-align: center;
     }
     
     .welcome {
-        font-size: 20px;
-        width: 75%;
-        padding: 20px 55px;
+        font-size: 0.9rem;
+        width: 90%;
+        padding: 0;
         text-align: center;
     }
-}          
+
+    /* область 3 */
+
+    .pop-products {
+        font-size: 3rem;
+    }
+
+    /* конец области 3 */
+
+    /* область 6 */
+
+    .title_cooperate {
+        font-size: 2rem;
+    }
+
+    .description_cooperate {
+        font-size: 2rem;
+    }
+
+    /* конец области 6 */
+}   

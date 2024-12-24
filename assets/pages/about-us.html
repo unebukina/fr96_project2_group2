@@ -18,7 +18,7 @@
           class="img_logo"
           src="assets-about-us/icon/coco_logo.svg"
           alt="Logotype of the brand"
-        />
+        >
         <!-- Меню навигации -->
         <nav class="navbar">
           <ul class="list">
@@ -181,5 +181,19 @@
       </div>
       <hr class="hr-line" />
     </footer>
+    <script>
+      document
+        .querySelector(".nav_burger")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".list").classList.toggle("open");
+        });
+      document
+        .querySelector(".button_link")
+        .addEventListener("click", function () {
+          this.classList.toggle("active");
+          document.querySelector(".modal_wrapper").classList.toggle("open");
+        });
+    </script>
   </body>
 </html>
